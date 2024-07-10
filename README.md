@@ -14,5 +14,8 @@ Here Colour Detection and tracking are used in order to achieve the objective. T
 3. Adjust the trackbar values to find the mask of the colored marker.
 4. Preprocess the mask with morphological operations.(Erotion and dilation)
 5. Detect the contours, find the center coordinates of the largest contour, and keep storing them in the array for successive frames. (Arrays for drawing points on canvas)
+
 Finally, draw the points stored in an array on the frames and canvas.
+
+
 **Requirements:** python3, numpy, and opencv installed on your system.
