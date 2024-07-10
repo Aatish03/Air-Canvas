@@ -9,9 +9,10 @@ We will be using the computer vision techniques of OpenCV to build this project.
 Here Colour Detection and tracking are used in order to achieve the objective. The color marker is detected and a mask is produced. It includes the further steps of morphological operations on the mask produced: Erosion and Dilation. Erosion reduces the impurities present in the mask and dilation further restores the eroded main mask.
 
 # Algorithm
-Start reading the frames and convert the captured frames to HSV color space.(Easy for color detection)
-Prepare the canvas frame and put the respective ink buttons on it. 3.. Adjust the trackbar values to find the mask of the colored marker.
-Preprocess the mask with morphological operations.(Erotion and dilation)
-Detect the contours, find the center coordinates of the largest contour, and keep storing them in the array for successive frames. (Arrays for drawing points on canvas)
+1. Start reading the frames and convert the captured frames to HSV color space.(Easy for color detection)
+2. Prepare the canvas frame and put the respective ink buttons on it.
+3. Adjust the trackbar values to find the mask of the colored marker.
+4. Preprocess the mask with morphological operations.(Erotion and dilation)
+5. Detect the contours, find the center coordinates of the largest contour, and keep storing them in the array for successive frames. (Arrays for drawing points on canvas)
 Finally, draw the points stored in an array on the frames and canvas.
-Requirements: python3, numpy, and opencv installed on your system.
+**Requirements:** python3, numpy, and opencv installed on your system.
